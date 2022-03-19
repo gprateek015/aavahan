@@ -1,9 +1,13 @@
 import React from 'react'
-import Homebg from '../../assets/galaxy.jpg';
+import Homebg from '../../assets/av4.jpg';
+import foot from '../../assets/foot.png';
+import ball from '../../assets/ball.png';
+import png from '../../assets/p1.png';
 import About from '../../components/about/About';
 
 import './home.styles.scss'
 import Introductory from '../../components/intoductory_section/Introductory';
+import Footer from '../../components/footer/Footer';
 
 const Home = () => {
   return (
@@ -12,23 +16,25 @@ const Home = () => {
     <div className='RaagDiv container-fluid'>
                 <div className='row'>
                     <div className='rcg col-md-12 col-lg-6 col-xl-6'>
-                        <p> <span>Antariksha</span> <br />The Club of space</p>
-                        <section>The Antariksha club aim to explore different phenomena <br /> going in space. Helps the student to know about <br /> Agencies like NASA and ISRO.</section>
-                        <img src={Homebg} alt="..." />
+                        <p> <span>Aavahan</span> <br />The Annual sports fest</p>
+                        <section>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit saepe,<br /> laborum illum possimus, illo recusandae suscipit<br /> laudantium ex provident quasi ipsum</section>
+                        <img src={foot} alt="..."/>
                     </div>
                     <div className='rmg col-md 12 col-lg-6 col-xl-6'>
-                        <img style={{ opacity: 0.7 }} src={Homebg} alt="..." id='Rgmg' />
+                        <img src={png} alt="..." id='Rgmg' />
                     </div>
                 </div>
             </div>
             <Introductory/>
             <About
-                image={Homebg}
-                bgcolor="purple"
+                image={ball}
+                bgcolor="black"
                 content="The main aim of the club is to engage students in various art forms based upon their interests.It organizes events related to festivals 
                 and some special occasions. 'Winter is here' is conducted every year in the month of December. '#Eco Kari' is another annual event
                  being organized by the aesthete club on the occasion of World Environment Day .
                 The club al so wishes to organize workshops to enhance the skills of the flourishing artists."
+            />
+            <Footer
             />
       </>
   )

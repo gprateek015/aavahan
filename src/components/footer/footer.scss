@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0
+}
+
+ul>li {
+    padding: 4px;
+    color:white
+}
+
+ul>li:hover {
+    color: black;
+    cursor: pointer
+}
+
+hr {
+    border-width: 3px
+}
+
+.card {
+    padding: 2% 7%;
+    background:linear-gradient(-45deg,rgb(84, 211, 250),rgb(61, 61, 226))
+}
+
+
+.social>i {
+    padding: 1%;
+    font-size: 15px
+}
+
+.social>i:hover {
+    color:white;
+    cursor: pointer
+}
+
+.policy>div {
+    padding: 4px
+}
+
+.heading {
+    font-family: 'Titillium Web', sans-serif;
+    color: black
+}
+
+.divider {
+    border-top: 2px solid
+}
+@media (max-width:580px) {
+    #cardcontainer{
+        text-align: center;
+    }
+    h1{
+        margin: auto;
+    }
+    .policy{
+        justify-content: center;
+    }
+}
