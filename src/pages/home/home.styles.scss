@@ -118,4 +118,11 @@
       width: 80vw;
       height: auto;
     }
+    .RaagDiv .rcg{
+      display: grid;
+      place-content: center;
+       color: white;
+       text-shadow: 5px 5px 10px black;
+       margin-top: 80px;
+    }
   }
