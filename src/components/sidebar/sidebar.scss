@@ -68,7 +68,7 @@
     text-align: center;
     z-index: 10;
     border-radius: 0px 10px 10px 0px;
-    transition: 1s;
+    transition: 0.5s;
   }
   
   .sidebar{
@@ -122,7 +122,10 @@
 
   @media (max-width:768px) {
     .side{
-      opacity: 0;
+       opacity: 0;
+    }
+    .sidebar{
+      display: none;
     }
     .btn{
       display: inline-block;

@@ -14,11 +14,14 @@ const Sidebar = () => {
 
     const clickEvent = () =>{
         var s = document.querySelector(".side");
+        var p = document.querySelector(".sidebar");
   
-        if(s.style.opacity==0){
+        if(p.style.display==="none"){
             s.style.opacity = 1
+            p.style.display = "block"
         }else{
             s.style.opacity = 0
+            p.style.display = "none"
         }
 
     }
