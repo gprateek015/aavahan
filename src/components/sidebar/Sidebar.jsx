@@ -7,9 +7,22 @@ import GroupsIcon from '@material-ui/icons/Group';
 import ContactPhoneIcon from '@material-ui/icons/ContactPhone';
 import BeenhereIcon from '@material-ui/icons/Beenhere';
 import { Link } from 'react-router-dom';
+import MenuRoundedIcon from '@material-ui/icons/MenuRounded';
 
 const Sidebar = () => {
 
+
+    const clickEvent = () =>{
+        var s = document.querySelector(".side");
+  
+        if(s.style.opacity==0){
+            s.style.opacity = 1
+        }else{
+            s.style.opacity = 0
+        }
+
+    }
+    
 
     return (
         <>
@@ -17,6 +30,9 @@ const Sidebar = () => {
             <nav className="navbar navbar-expand-lg navbar-dark">
                 <div className="container-fluid">
                     <div className="navbar-brand m-auto" to=""><span id="college">Aava</span><span id="help">Han</span></div>
+                    <button className='btn' onClick={clickEvent} >
+                    <MenuRoundedIcon htmlColor='rgb(142, 110, 255)' />
+                    </button>
                 </div>
             </nav>
 

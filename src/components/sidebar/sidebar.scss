@@ -12,6 +12,14 @@
     left: 0px;
     z-index: 2;
   }
+
+  .btn{
+    width: 50px;
+    line-height: 10px;
+    display: grid;
+    place-content: center;
+    display: none;
+  }
   
   .navbar-dark .navbar-toggler-icon{
       background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 20, 300, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
@@ -33,6 +41,8 @@
   #blue{
     color: rgb(78, 95, 248);
   }
+
+
 
   // Side bar css/////////////////////////////////////////////////////
 
@@ -108,4 +118,13 @@
   }
   .main:hover > #c .barlink{
     opacity: 1;
+  }
+
+  @media (max-width:768px) {
+    .side{
+      opacity: 0;
+    }
+    .btn{
+      display: inline-block;
+    }
   }
