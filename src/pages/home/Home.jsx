@@ -4,6 +4,7 @@ import foot from '../../assets/foot.png';
 import ball from '../../assets/ball.png';
 import png from '../../assets/p1.png';
 import About from '../../components/about/About';
+import bgabout from '../../assets/av1.jpg'
 
 import './home.styles.scss'
 import Introductory from '../../components/intoductory_section/Introductory';
@@ -34,8 +35,7 @@ const Home = () => {
                  being organized by the aesthete club on the occasion of World Environment Day .
                 The club al so wishes to organize workshops to enhance the skills of the flourishing artists."
             />
-            <Footer
-            />
+            <Footer/>
       </>
   )
 }
