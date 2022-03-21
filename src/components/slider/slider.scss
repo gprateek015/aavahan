@@ -64,3 +64,13 @@
     transform: translateX(-1700px);
     }
 }
+
+@media (max-width:768px) {
+    .slider{
+        width: 390px;
+    }
+    .slider_track{
+        width: 390px;
+        overflow-x: auto;
+    }
+}
