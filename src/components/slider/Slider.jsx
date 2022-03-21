@@ -12,7 +12,7 @@ const Slider = () => {
                     <div className='com'>
                         <div className='box'>
                             <img src={Img} alt="" />
-                            <p>Name <br />
+                            <p>Anand<br />
                                 <span>Designation</span>
                             </p>
                         </div>
@@ -21,7 +21,7 @@ const Slider = () => {
                     <div className='com'>
                         <div className='box'>
                             <img src={Img} alt="" />
-                            <p>Name <br />
+                            <p>Anand <br />
                                 <span>Designation</span>
                             </p>
                         </div>
@@ -30,7 +30,7 @@ const Slider = () => {
                     <div className='com'>
                         <div className='box'>
                             <img src={Img} alt="" />
-                            <p>Name <br />
+                            <p>Anand <br />
                                 <span>Designation</span>
                             </p>
                         </div>
@@ -39,7 +39,7 @@ const Slider = () => {
                     <div className='com'>
                         <div className='box'>
                             <img src={Img} alt="" />
-                            <p>Name <br />
+                            <p>Anand <br />
                                 <span>Designation</span>
                             </p>
                         </div>
@@ -48,7 +48,7 @@ const Slider = () => {
                     <div className='com'>
                         <div className='box'>
                             <img src={Img} alt="" />
-                            <p>Name <br />
+                            <p>Anand <br />
                                 <span>Designation</span>
                             </p>
                         </div>
@@ -57,7 +57,7 @@ const Slider = () => {
                     <div className='com'>
                         <div className='box'>
                             <img src={Img} alt="" />
-                            <p>Name <br />
+                            <p>Anand <br />
                                 <span>Designation</span>
                             </p>
                         </div>
@@ -66,7 +66,7 @@ const Slider = () => {
                     <div className='com'>
                         <div className='box'>
                             <img src={Img} alt="" />
-                            <p>Name <br />
+                            <p>Anand <br />
                                 <span>Designation</span>
                             </p>
                         </div>
@@ -75,7 +75,7 @@ const Slider = () => {
                     <div className='com'>
                         <div className='box'>
                             <img src={Img} alt="" />
-                            <p>Name <br />
+                            <p>Anand <br />
                                 <span>Designation</span>
                             </p>
                         </div>
