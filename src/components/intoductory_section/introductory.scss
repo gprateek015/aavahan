@@ -31,11 +31,16 @@ iframe{
     margin-bottom: 20px;
     font-weight: bold;
 }
-@media (max-width:720px) {
+@media (max-width:1000px) {
     .intro{
-        width: 90vw;
+        margin-top: 100px;
     }
     iframe{
         height: 200px;
+    }
+}
+@media (max-width:500px) {
+    .intro{
+        margin-top: 50px;
     }
 }
