@@ -58,7 +58,7 @@
 
   .side{
     width: 60px;
-    height: 450px;
+    height: 530px;
     background-color:#4723D9;
     float: left;
     position: fixed;
@@ -73,7 +73,7 @@
   
   .sidebar{
     width:0px;
-    height: 450px;
+    height: 530px;
     background-color:#4723D9;
     transition: .3s;
     float: left;
@@ -84,7 +84,7 @@
     z-index: 10;
   }
   .side, .sidebar{
-    top:20vh
+    top:15vh
   }
   
   .barlink{

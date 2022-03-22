@@ -29,6 +29,11 @@ const Home = () => {
 
 
             <Introductory/>
+
+           <Slider
+               name="Our Mentors"
+           />
+
             <About
                 image={ball}
                 bgcolor="black"
@@ -38,7 +43,9 @@ const Home = () => {
                 The club al so wishes to organize workshops to enhance the skills of the flourishing artists."
             />
 
-          <Slider/>
+          <Slider
+              name="Our Sponsors"
+          />
 
             <Footer/>
       </>

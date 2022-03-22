@@ -8,6 +8,7 @@ import ContactPhoneIcon from '@material-ui/icons/ContactPhone';
 import BeenhereIcon from '@material-ui/icons/Beenhere';
 import { Link } from 'react-router-dom';
 import MenuRoundedIcon from '@material-ui/icons/MenuRounded';
+import EmojiEventsIcon from '@material-ui/icons/EmojiEvents';
 
 const Sidebar = () => {
 
@@ -44,6 +45,7 @@ const Sidebar = () => {
                 <p> <Link className='link' to="/"> <HomeIcon /> </Link></p>
                 <p> <a className='link' href='/#About'> <InfoIcon /> </a></p>
                 <p> <Link className='link' to='/'> <GroupsIcon /> </Link></p>
+                <p> <Link className='link' to='/'> <EmojiEventsIcon /> </Link></p>
                 <p> <Link className='link' to='/'> <BeenhereIcon /> </Link></p>
                 <p> <Link className='link' to='/'> <ContactPhoneIcon /> </Link></p>
             </div>
@@ -53,6 +55,7 @@ const Sidebar = () => {
                     <p> <Link className='link' to="/"> Home </Link></p>
                     <p> <a className='link' href='/#About'> About </a></p>
                     <p> <Link className='link' to='/'> Teams </Link></p>
+                    <p> <Link className='link' to='/'> 2k19 </Link></p>
                     <p> <Link className='link' to='/'> Sponsorships</Link></p>
                     <p> <Link className='link' to='/'> Contact </Link></p>
                 </div>
