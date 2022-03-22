@@ -4,9 +4,9 @@ import './about.scss'
 const About = (props) => {
   return (
             <>
-            <div className='about Conatiner-fluid' id='About'>
+            <div className='about Conatiner-fluid' id='About' data-aos="fade-up">
                 <div className='row'>
-                    <div className='aboutText col-lg-6 col-xl-6'>
+                    <div className='aboutText col-lg-6 col-xl-6' data-aos="fade-right">
                         <h2>About Us</h2>
                         <p>{props.content}</p>
                     </div>

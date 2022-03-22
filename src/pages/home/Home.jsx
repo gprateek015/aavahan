@@ -2,7 +2,7 @@ import React from 'react'
 import Homebg from '../../assets/av4.jpg';
 import foot from '../../assets/foot.png';
 import ball from '../../assets/ball.png';
-import png from '../../assets/p1.png';
+import png from '../../assets/p2.png';
 import About from '../../components/about/About';
 
 import './home.styles.scss'
@@ -16,12 +16,12 @@ const Home = () => {
     <img src={Homebg} alt="" id='Rbg'/>
     <div className='RaagDiv container-fluid'>
                 <div className='row'>
-                    <div className='rcg col-md-12 col-lg-6 col-xl-6'>
+                    <div className='rcg col-md-12 col-lg-6 col-xl-6' data-aos="flip-right">
                         <p> <span>Aavahan</span> <br />The Annual sports fest</p>
                         <section>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit saepe,<br /> laborum illum possimus, illo recusandae suscipit<br /> laudantium ex provident quasi ipsum</section>
                         <img src={foot} alt="..."/>
                     </div>
-                    <div className='rmg col-md 12 col-lg-6 col-xl-6'>
+                    <div className='rmg col-md 12 col-lg-6 col-xl-6' data-aos="fade-right">
                         <img src={png} alt="..." id='Rgmg' />
                     </div>
                 </div>
