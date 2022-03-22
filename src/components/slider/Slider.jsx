@@ -6,7 +6,7 @@ const Slider = () => {
     return (
         <>
             <div className='slider'>
-                <h1>Our Sponsor</h1>
+                <h1>Our Sponsors</h1>
                 <div className='slider_track'>
 
                     <div className='com'>

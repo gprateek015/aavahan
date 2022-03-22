@@ -26,6 +26,9 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+
+          {/* <div className='calculator'></div> */}
+
             <Introductory/>
             <About
                 image={ball}
