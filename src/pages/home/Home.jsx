@@ -27,7 +27,6 @@ const Home = () => {
                 </div>
             </div>
 
-          {/* <div className='calculator'></div> */}
 
             <Introductory/>
             <About
