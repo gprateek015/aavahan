@@ -33,6 +33,7 @@ iframe{
 }
 @media (max-width:1000px) {
     .intro{
+        width: 70vw;
         margin-top: 100px;
     }
     iframe{
@@ -41,6 +42,7 @@ iframe{
 }
 @media (max-width:500px) {
     .intro{
-        margin-top: 50px;
+        margin-top: 80px;
+        width: 90vw;
     }
 }
