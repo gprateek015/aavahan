@@ -1,8 +1,9 @@
 import React from 'react'
-import Homebg from '../../assets/av4.jpg';
+import Homebg from '../../assets/av4.png';
 import foot from '../../assets/foot.png';
 import ball from '../../assets/ball.png';
-import png from '../../assets/p2.png';
+import png from '../../assets/p4.png';
+import bgmain from '../../assets/bgmain3.png';
 import About from '../../components/about/About';
 
 import './home.styles.scss'
@@ -14,6 +15,7 @@ const Home = () => {
   return (
       <>
     <img src={Homebg} alt="" id='Rbg'/>
+    <img src={bgmain} alt="" id='Rbg2'/>
     <div className='RaagDiv container-fluid'>
                 <div className='row'>
                     <div className='rcg col-md-12 col-lg-6 col-xl-6' data-aos="flip-right">
@@ -31,7 +33,7 @@ const Home = () => {
             <Introductory/>
 
            <Slider
-               name="Our Mentors"
+               name="Our Sponsors"
            />
 
             <About
@@ -44,7 +46,7 @@ const Home = () => {
             />
 
           <Slider
-              name="Our Sponsors"
+              name="Our Mentors"
           />
 
             <Footer/>
