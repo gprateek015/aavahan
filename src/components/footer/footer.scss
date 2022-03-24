@@ -9,11 +9,11 @@ ul {
 
 ul>li {
     padding: 4px;
-    color:white
+    color:#b3b2b2
 }
 
 ul>li:hover {
-    color: black;
+    color: rgb(110, 109, 109);
     cursor: pointer
 }
 
@@ -23,27 +23,35 @@ hr {
 
 .card {
     padding: 2% 7%;
-    background:linear-gradient(-45deg,rgb(84, 211, 250),rgb(61, 61, 226))
+    background:linear-gradient(rgb(41, 40, 40),rgb(7, 7, 7))
 }
 
+.card-text{
+    color: white;
+}
 
 .social>i {
     padding: 1%;
-    font-size: 15px
+    font-size: 15px;
+    color:#696969
 }
 
 .social>i:hover {
-    color:white;
+    color:rgb(235, 232, 232);
     cursor: pointer
 }
 
+.policy, .pull-left{
+    color: rgb(150, 148, 148);
+}
+
 .policy>div {
-    padding: 4px
+    padding: 4px;
 }
 
 .heading {
     font-family: 'Titillium Web', sans-serif;
-    color: black
+    color:white
 }
 
 .divider {

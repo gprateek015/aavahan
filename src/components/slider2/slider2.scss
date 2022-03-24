@@ -7,9 +7,10 @@
 .slider h1{
     text-align: center;
     margin-bottom: 70px;
-    margin-top: 0px;
+    margin-top: 70px;
     font-weight: bold;
     color: rgb(151, 150, 150);
+    word-spacing: 7px;
 }
 
 .slider_track{
@@ -27,36 +28,45 @@
     padding: 20px 0px 20px 0px;
     animation: scroll 20s linear infinite;
 }
-.com .box{
+.com .box1{
     width: 220px;
     height: 240px;
     margin: auto;
-    background:linear-gradient(45deg,rgb(2, 2, 2),rgb(56, 56, 56),black);
     border-radius: 20px;
     display: grid;
     align-items: center;
     text-align: center;
     border: 1px solid rgb(158, 158, 158);
     color: white;
+    background-position: center;
+    background-size: cover;
   }
 
+#b1{
+    background-image: url('../../assets/e1.jpeg');
+}
+#b2{
+    background-image: url('../../assets/e2.jpeg');
+}
+#b3{
+    background-image: url('../../assets/e3.jpeg');
+}
+#b4{
+    background-image: url('../../assets/e4.jpeg');
+}
+#b5{
+    background-image: url('../../assets/e5.jpeg');
+}
+#b6{
+    background-image: url('../../assets/e1.jpeg');
+}
+#b7{
+    background-image: url('../../assets/e2.jpeg');
+}
+#b8{
+    background-image: url('../../assets/e3.jpeg');
+} 
   
-  .com img{
-      width: 100px;
-      height: auto;
-      margin: auto;
-      margin-top: 20px;
-      border-radius: 50%;
-  }
-  .box p {
-      margin-top: -70px !important;
-      font-weight: bold;
-      font-size: 20px;
-  }
-  .box p span{
-      font-weight: normal;
-      font-size: 14px;
-  }
   
 @keyframes scroll {
     0%

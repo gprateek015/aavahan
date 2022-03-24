@@ -20,26 +20,14 @@
     place-content: center;
     display: none;
   }
-  
-  .navbar-dark .navbar-toggler-icon{
-      background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 20, 300, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-  }
-  
-  #blue{
-      color: rgb(78, 95, 248);
-  }
+
   .navbar-brand{
    font-weight: bolder;
    font-size: 25px;
   }
-  #college{
-    color: rgb(78, 212, 156);
-  }
-  #help{
-    color: rgb(142, 110, 255);
-  }
-  #blue{
-    color: rgb(78, 95, 248);
+  .navbar-brand img{
+    width: 130px;
+    height: auto;
   }
 
 
@@ -59,7 +47,7 @@
   .side{
     width: 60px;
     height: 530px;
-    background-color:#4723D9;
+    background-color: #272727;
     float: left;
     position: fixed;
     top: 0px;
@@ -74,7 +62,7 @@
   .sidebar{
     width:0px;
     height: 530px;
-    background-color:#4723D9;
+    background-color:#272727;
     transition: .3s;
     float: left;
     position: fixed;

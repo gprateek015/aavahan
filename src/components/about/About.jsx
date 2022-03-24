@@ -5,7 +5,8 @@ import Button from '@material-ui/core/Button';
 const About = (props) => {
   return (
             <>
-            <div className='about Conatiner-fluid' id='About' data-aos="fade-up">
+            <div id='About'></div>
+            <div className='about Conatiner-fluid' data-aos="fade-up">
                 <div className='row'>
                     <div className='aboutText col-lg-6 col-xl-6' data-aos="fade-right">
                         <h2>About Us</h2>

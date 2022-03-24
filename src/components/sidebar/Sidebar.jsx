@@ -10,6 +10,8 @@ import { Link } from 'react-router-dom';
 import MenuRoundedIcon from '@material-ui/icons/MenuRounded';
 import EmojiEventsIcon from '@material-ui/icons/EmojiEvents';
 
+import logo from '../../assets/logo.png';
+
 const Sidebar = () => {
 
 
@@ -33,7 +35,7 @@ const Sidebar = () => {
 
             <nav className="navbar navbar-expand-lg navbar-dark">
                 <div className="container-fluid">
-                    <div className="navbar-brand m-auto" to=""><span id="college">Aava</span><span id="help">Han</span></div>
+                    <div className="navbar-brand m-auto" to=""><img src={logo} alt="..." /></div>
                     <button className='btn' onClick={clickEvent} >
                     <MenuRoundedIcon htmlColor='rgb(142, 110, 255)' />
                     </button>
@@ -45,7 +47,7 @@ const Sidebar = () => {
                 <p> <Link className='link' to="/"> <HomeIcon /> </Link></p>
                 <p> <a className='link' href='/#About'> <InfoIcon /> </a></p>
                 <p> <Link className='link' to='/'> <GroupsIcon /> </Link></p>
-                <p> <Link className='link' to='/'> <EmojiEventsIcon /> </Link></p>
+                <p> <Link className='link' to='/2k19'> <EmojiEventsIcon /> </Link></p>
                 <p> <Link className='link' to='/'> <BeenhereIcon /> </Link></p>
                 <p> <Link className='link' to='/'> <ContactPhoneIcon /> </Link></p>
             </div>
@@ -55,7 +57,7 @@ const Sidebar = () => {
                     <p> <Link className='link' to="/"> Home </Link></p>
                     <p> <a className='link' href='/#About'> About </a></p>
                     <p> <Link className='link' to='/'> Teams </Link></p>
-                    <p> <Link className='link' to='/'> 2k19 </Link></p>
+                    <p> <Link className='link' to='/2k19'> 2k19 </Link></p>
                     <p> <Link className='link' to='/'> Sponsorships</Link></p>
                     <p> <Link className='link' to='/'> Contact </Link></p>
                 </div>
