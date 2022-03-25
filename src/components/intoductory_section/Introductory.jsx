@@ -36,7 +36,7 @@ const Introductory = () => {
             <iframe
               width='480'
               height='300'
-              src='https://www.youtube.com/embed/mS60nG6bJwo'
+              src='https://www.youtube.com/embed/P79GtHH-hdg'
               title='YouTube video player'
               frameborder='0'
               allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'

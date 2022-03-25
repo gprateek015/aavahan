@@ -18,33 +18,21 @@ const Footer = () => {
       >
         <div class='card w-100'>
           <div class='row mb-4'>
-            <div class='col-md-4 col-sm-4 col-xs-4'>
-              <div class='footer-text pull-left'>
-                <div class='d-flex'>
-                  <h1 style={{ color: 'White' }}>Aavahan</h1>
-                </div>
-                <p class='card-text'>
-                  We thereby invite you all to join this nerve racking event
-                  full of thrill and adventure and to re-experience the
-                  adrenaline rush through your veins.
-                </p>
-                <div class='social mt-2 mb-3'>
-                  {' '}
-                  <i class='fa fa-lg'>
-                    <Facebook />
-                  </i>{' '}
-                  <i class='fa fa-lg'>
-                    <Insta />
-                  </i>{' '}
-                  <i class='fa fa-lg'>
-                    <WhatsApp />
-                  </i>{' '}
-                  <i class='fa'>
-                    <Mail />
-                  </i>{' '}
-                </div>
-              </div>
-            </div>
+          <div class="col-md-4 col-sm-4 col-xs-4">
+                            <div class="footer-text pull-left">
+                                <div class="d-flex">
+                                    <h1 style={{ color: 'White' }}>Aavahan</h1>
+                                </div>
+                                <p class="card-text">
+                                    We thereby invite you all to join this nerve racking event full of thrill and adventure and to re-experience the adrenaline rush through your veins.</p>
+                                <div class="social mt-2 mb-3">
+                                 <a className='fa' href="https://www.linkedin.com/in/aavahaan-jec-7231a1235/" target="1"><i class=" fa fa-brands fa-linkedin"></i></a>
+                                  <a className='fa' href="https://www.instagram.com/aavahan_2k22/" target='1'><Insta /></a> 
+                                  <a className="fa"><WhatsApp /></a> 
+                                  <a className="fa"><Mail /></a> </div>
+
+                            </div>
+                        </div>
             <div class='col-md-2 col-sm-2 col-xs-2'></div>
             <div class='col-md-3 col-sm-3 col-xs-3'>
               <h5 class='heading'>Details</h5>
