@@ -1,17 +1,13 @@
+import EventCard from '../event-card/event-card';
 import './event-section.scss';
 
-const EventSection = ({ heading, theme }) => {
+const EventSection = ({ heading }) => {
   return (
-    <div
-      style={{ background: `${theme === 'dark' ? 'grey' : 'white'}` }}
-      className='event-section'
-    >
-      <h1
-        className='heading'
-        style={{ color: `${theme === 'dark' ? 'white' : 'grey'}` }}
-      >
+    <div className='event-section'>
+      <h1 className='heading' style={{ color: 'grey' }}>
         {heading}
       </h1>
+      <EventCard sport='Cricket' team1='CSE' team2='IT' time='2:00 pm' />
     </div>
   );
 };

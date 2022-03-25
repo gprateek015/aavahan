@@ -1,7 +1,12 @@
 .event-section {
   height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   .heading {
-    text-align: center;
+    width: fit-content;
+    margin-bottom: 40px;
   }
 }
