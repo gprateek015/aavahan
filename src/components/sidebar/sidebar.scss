@@ -109,11 +109,21 @@
   }
 
   @media (max-width:768px) {
+
+    .barlink p{
+      margin-top: 40px !important;
+    }
+    .side p{
+      margin-top: 43px !important;
+    }
+
     .side{
        opacity: 0;
+       height: 470px;
     }
     .sidebar{
       display: none;
+      height: 470px;
     }
     .btn{
       display: inline-block;
@@ -121,4 +131,5 @@
     .navbar-brand{
       padding-left: 60px;
     }
+
   }

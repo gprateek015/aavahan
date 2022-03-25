@@ -24,7 +24,24 @@
     height: 100vh;
     display: grid;
     place-content: center;
-  }
+}
+
+.MainDiv h2{
+  text-align: center;
+  margin-bottom: 70px;
+  margin-top: -70px;
+  font-weight: bold;
+  color: rgb(124, 124, 124);
+  text-shadow: 2px 2px 15px rgb(79, 79, 128);
+}
+
+.MainDiv .carousel{
+  width: 45vw;
+  height: auto;
+}
+.MainDiv .carousel img{
+  border-radius: 10px;
+}
   
 
   

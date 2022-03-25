@@ -13,7 +13,7 @@ const Introductory = () => {
 
           <div className='com-md-6 col-xl-6 col-lg-6 video'>
   
-              <iframe width="480" height="300" src="https://www.youtube.com/embed/mS60nG6bJwo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe width="480" height="300" src="https://www.youtube.com/embed/P79GtHH-hdg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           
           </div>
 
