@@ -4,6 +4,7 @@ import img0 from '../../assets/galaxy.png';
 import bgmain from '../../assets/bgmain3.png';
 
 import './events.scss';
+import Footer from '../../components/footer/Footer';
 
 const EventPage = () => {
   return (
@@ -14,6 +15,11 @@ const EventPage = () => {
       <EventSection heading='2nd Day' />
       <EventSection heading='3rd Day' />
       <EventSection heading='DJ Night' />
+
+        
+      <Footer/>  
+
+
     </>
   );
 };

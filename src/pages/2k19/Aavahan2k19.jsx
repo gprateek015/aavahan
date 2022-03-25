@@ -9,6 +9,7 @@ import n1 from '../../assets/n1.jpg'
 import n2 from '../../assets/n2.jpg'
 import n3 from '../../assets/n3.jpg'
 import n4 from '../../assets/n4.jpg'
+import Footer from '../../components/footer/Footer';
 
 
 const Aavahan2k19 = () => {
@@ -49,6 +50,8 @@ const Aavahan2k19 = () => {
       <Silder2
         name="Past Sponsors"
       />
+
+          <Footer/>
 
     </>
   )

@@ -24,7 +24,7 @@ const Footer = () => {
                                     <h1 style={{ color: 'White' }}>Aavahan</h1>
                                 </div>
                                 <p class="card-text">
-                                    We thereby invite you all to join this nerve racking event full of thrill and adventure and to re-experience the adrenaline rush through your veins.</p>
+                                Venue : Jabalpur Engineering College, Gokalpur, Jabalpur Pin- 482011, MP , India.</p>
                                 <div class="social mt-2 mb-3">
                                  <a className='fa' href="https://www.linkedin.com/in/aavahaan-jec-7231a1235/" target="1"><i class=" fa fa-brands fa-linkedin"></i></a>
                                   <a className='fa' href="https://www.instagram.com/aavahan_2k22/" target='1'><Insta /></a> 
