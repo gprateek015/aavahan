@@ -10,6 +10,7 @@ import './home.styles.scss'
 import Introductory from '../../components/intoductory_section/Introductory';
 import Footer from '../../components/footer/Footer';
 import Slider from '../../components/slider/Slider';
+import Silder2 from '../../components/slider2/Silder2';
 
 const Home = () => {
     return (
@@ -32,7 +33,11 @@ const Home = () => {
 
             <Introductory />
 
-            <Slider
+            {/* <Slider
+                name="Our Sponsors"
+            /> */}
+
+            <Silder2
                 name="Our Sponsors"
             />
 
