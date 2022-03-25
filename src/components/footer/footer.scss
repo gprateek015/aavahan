@@ -30,16 +30,11 @@ hr {
     color: white;
 }
 
-.social>i {
+.social>a {
     padding: 1%;
     font-size: 15px;
-    color:#696969
 }
 
-.social>i:hover {
-    color:rgb(235, 232, 232);
-    cursor: pointer
-}
 
 .policy, .pull-left{
     color: rgb(150, 148, 148);
@@ -57,6 +52,28 @@ hr {
 .divider {
     border-top: 2px solid
 }
+
+.fa{
+    color:#696969;
+    margin-right:5px;
+}
+.fa:hover{
+
+    color:rgb(235, 232, 232);
+    cursor: pointer
+}
+.fa i{
+    font-size: 16px;
+    color:rgb(19, 17, 17) !important;
+    text-decoration: none;
+    background-color:#696969;
+    padding: 3px;
+    border-radius: 2px;
+}
+.fa i:hover{
+    background-color: rgb(235, 232, 232);
+}
+
 @media (max-width:580px) {
     #cardcontainer{
         text-align: center;

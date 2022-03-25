@@ -2,7 +2,7 @@ import React from 'react'
 import './footer.scss'
 
 import Mail from '@material-ui/icons/Email';
-import Facebook from '@material-ui/icons/Facebook';
+// import Facebook from '@material-ui/icons/Facebook';
 import Insta from '@material-ui/icons/Instagram';
 import WhatsApp from '@material-ui/icons/WhatsApp';
 import { Copyright } from '@material-ui/icons';
@@ -20,7 +20,12 @@ const Footer = () => {
                                 </div>
                                 <p class="card-text">
                                     We thereby invite you all to join this nerve racking event full of thrill and adventure and to re-experience the adrenaline rush through your veins.</p>
-                                <div class="social mt-2 mb-3"> <i class="fa fa-facebook-official fa-lg"><Facebook /></i> <i class="fa fa-instagram fa-lg"><Insta /></i> <i class="fa fa-twitter fa-lg"><WhatsApp /></i> <i class="fa fa-facebook"><Mail /></i> </div>
+                                <div class="social mt-2 mb-3">
+                                 <a className='fa' href="https://www.linkedin.com/in/aavahaan-jec-7231a1235/" target="1"><i class=" fa fa-brands fa-linkedin"></i></a>
+                                  <a className='fa' href="https://www.instagram.com/aavahan_2k22/" target='1'><Insta /></a> 
+                                  <a class="fa"><WhatsApp /></a> 
+                                  <a class="fa"><Mail /></a> </div>
+                            
                             </div>
                         </div>
                         <div class="col-md-2 col-sm-2 col-xs-2"></div>

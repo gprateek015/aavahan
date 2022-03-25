@@ -42,6 +42,25 @@
 .MainDiv .carousel img{
   border-radius: 10px;
 }
+
+@media (max-width:768px) {
+
+  .MainDiv{
+    height: auto;
+  }
+  
+  .MainDiv .carousel{
+    width: 90vw;
+    margin-bottom: 70px;
+  }
+
+  .MainDiv h2{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 70px;
+  }
+
+}
   
 
   

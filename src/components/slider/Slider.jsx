@@ -5,7 +5,7 @@ import Img from '../../assets/av7.jpg'
 const Slider = (props) => {
     return (
         <>
-            <div className='slider'>
+            <div className='slider' id='Sponsorships'>
                 <h1>{props.name}</h1>
                 <div className='slider_track'>
 

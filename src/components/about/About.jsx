@@ -11,7 +11,7 @@ const About = (props) => {
                     <div className='aboutText col-lg-6 col-xl-6' data-aos="fade-right">
                         <h2>About Us</h2>
                         <p>{props.content}<br/>
-                        <Button variant="outlined" href='#' className='button'>more</Button>
+                        <Button variant="outlined" href='/2k19' className='button'>more</Button>
                         </p>
                     </div>
                     <div className='aboutImg col-lg-6 col-xl-6'>

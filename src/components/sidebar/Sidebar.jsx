@@ -48,7 +48,7 @@ const Sidebar = () => {
                 <p> <a className='link' href='/#About'> <InfoIcon /> </a></p>
                 <p> <Link className='link' to='/'> <GroupsIcon /> </Link></p>
                 <p> <Link className='link' to='/2k19'> <EmojiEventsIcon /> </Link></p>
-                <p> <Link className='link' to='/'> <BeenhereIcon /> </Link></p>
+                <p> <a className='link' href='/#Sponsorships'> <BeenhereIcon /> </a></p>
                 <p> <Link className='link' to='/'> <ContactPhoneIcon /> </Link></p>
             </div>
 
@@ -58,7 +58,7 @@ const Sidebar = () => {
                     <p> <a className='link' href='/#About'> About </a></p>
                     <p> <Link className='link' to='/'> Teams </Link></p>
                     <p> <Link className='link' to='/2k19'> 2k19 </Link></p>
-                    <p> <Link className='link' to='/'> Sponsorships</Link></p>
+                    <p> <a className='link' href='/#Sponsorships'> Sponsorships</a></p>
                     <p> <Link className='link' to='/'> Contact </Link></p>
                 </div>
             </div>
