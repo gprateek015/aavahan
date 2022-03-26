@@ -49,7 +49,7 @@ const Sidebar = () => {
                 <p> <Link className='link' to='/events'> <GroupsIcon /> </Link></p>
                 <p> <Link className='link' to='/2k19'> <EmojiEventsIcon /> </Link></p>
                 <p> <a className='link' href='/#Sponsorships'> <BeenhereIcon /> </a></p>
-                <p> <Link className='link' to='/'> <ContactPhoneIcon /> </Link></p>
+                <p> <a className='link' href='mailto:gaikwadanandrao2@gmail.com' target='1' > <ContactPhoneIcon /> </a></p>
             </div>
 
             <div className="sidebar" id="c">
@@ -59,7 +59,7 @@ const Sidebar = () => {
                     <p> <Link className='link' to='/events'> Events </Link></p>
                     <p> <Link className='link' to='/2k19'> 2k19 </Link></p>
                     <p> <a className='link' href='/#Sponsorships'> Sponsorships</a></p>
-                    <p> <Link className='link' to='/'> Contact </Link></p>
+                    <p> <a className='link' href='mailto:gaikwadanandrao2@gmail.com'> Contact </a></p>
                 </div>
             </div>
           </div>
