@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import './footer.scss';
 
 import Mail from '@material-ui/icons/Email';
-import Facebook from '@material-ui/icons/Facebook';
 import Insta from '@material-ui/icons/Instagram';
 import WhatsApp from '@material-ui/icons/WhatsApp';
 import { Copyright } from '@material-ui/icons';
@@ -28,8 +27,8 @@ const Footer = () => {
                                 <div class="social mt-2 mb-3">
                                  <a className='fa' href="https://www.linkedin.com/in/aavahaan-jec-7231a1235/" target="1"><i class=" fa fa-brands fa-linkedin"></i></a>
                                   <a className='fa' href="https://www.instagram.com/aavahan_2k22/" target='1'><Insta /></a> 
-                                  <a className="fa"><WhatsApp /></a> 
-                                  <a className="fa"><Mail /></a> </div>
+                                  <a className="fa" href='https://wa.me/8103570600' target="1"><WhatsApp /></a> 
+                                  <a className="fa" href='mailto:gaikwadanandrao2@gmail.com'><Mail /></a> </div>
 
                             </div>
                         </div>
