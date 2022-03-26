@@ -9,7 +9,7 @@ import m3 from '../../assets/m3.jpeg'
 const Slider = (props) => {
     return (
         <>
-            <div className='slider' id='Sponsorships'>
+            <div className='slider'>
                 <h1>{props.name}</h1>
                 <div className='slider_track'>
 

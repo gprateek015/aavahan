@@ -1,11 +1,10 @@
 import React from 'react'
 import './slider2.scss'
-import Img from '../../assets/av7.jpg'
 
 const Silder2 = (props) => {
     return (
         <>
-            <div className='slider'>
+            <div className='slider' id='Sponsorships'>
                 <h1>{props.name}</h1>
                 <div className='slider_track'>
 
