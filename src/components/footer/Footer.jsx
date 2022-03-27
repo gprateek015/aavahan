@@ -49,7 +49,7 @@ const Footer = () => {
             <div class='col-md-3 col-sm-3 col-xs-3'>
               <h5 class='heading'>Aavahan 2019</h5>
               <ul class='card-text'>
-                <li><Link to='/2k19'>History</Link></li>
+                <li><a href='/2k19/#History'>History</a></li>
                 <li>
                 <a href="/2k19/#PastSpon">Past Sponsors</a>
                 </li>
