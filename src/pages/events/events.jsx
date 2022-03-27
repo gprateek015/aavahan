@@ -9,6 +9,7 @@ import Footer from '../../components/footer/Footer';
 const EventPage = () => {
   return (
     <>
+    <div id='Events'></div>
       <img src={img0} alt='' id='Rbg' />
       <img src={bgmain} alt='' id='Rbg2' />
 
