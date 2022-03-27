@@ -1,0 +1,53 @@
+.rule-card {
+  border: 1px solid whitesmoke;
+  border-radius: 20px;
+  width: 250px;
+  height: 300px;
+  color: white;
+
+  .rule-card-details {
+    width: 80%;
+    height: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+.sport-rule-box {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: grey;
+  z-index: 5;
+
+  .rules {
+    width: 80vw;
+    height: 80vh;
+    background-color: white;
+    margin: 10vh auto;
+    overflow: scroll;
+
+    .ruless {
+      width: 90%;
+      height: 90%;
+      margin: auto;
+
+      h1 {
+        color: black;
+        margin-top: 30px;
+      }
+
+      ul {
+        list-style-type: disc;
+        li {
+          color: black;
+        }
+      }
+    }
+  }
+}
