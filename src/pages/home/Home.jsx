@@ -37,6 +37,7 @@ const Home = () => {
                 name="Our Sponsors"
             /> */}
 
+           <div id='Sponsors'></div>
             <Silder2
                 name="Our Sponsors"
             />

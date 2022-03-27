@@ -47,6 +47,7 @@ const Aavahan2k19 = () => {
         </div>
       </div>
 
+     <div id='PastSpon'></div>
       <Silder2
         name="Past Sponsors"
       />
