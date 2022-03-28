@@ -1,0 +1,38 @@
+.rule-box{
+  width: 100%;
+  height: auto;
+
+  .rule{
+    display: grid;
+    place-content: center;
+    margin-top: 50px;
+  }
+}
+
+#Rbg {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: -1;
+  object-fit: cover;
+  opacity: 1;
+}
+#Rbg2 {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  z-index: -2;
+  object-fit: cover;
+  opacity: 1;
+}
+
+.head{
+  text-align: center;
+  color:rgb(124, 124, 124);
+  margin-top: 70px;
+  margin-bottom: 30px;
+}

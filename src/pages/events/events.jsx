@@ -5,7 +5,6 @@ import bgmain from '../../assets/bgmain3.png';
 
 import './events.scss';
 import Footer from '../../components/footer/Footer';
-import RuleBox from '../../components/rule-box/rule-box';
 
 const EventPage = () => {
   return (
@@ -25,7 +24,6 @@ const EventPage = () => {
         ></iframe>
       </div>
 
-      <RuleBox />
       <EventSection heading='1st Day' />
       <EventSection heading='2nd Day' />
       <EventSection heading='3rd Day' />
