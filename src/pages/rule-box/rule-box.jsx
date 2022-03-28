@@ -9,8 +9,6 @@ const RuleBox = () => {
   return (
   
     <>
-      
-      <div id='Rules'></div>
 
       <img src={img0} alt='' id='Rbg' />
       <img src={bgmain} alt='' id='Rbg2' />
