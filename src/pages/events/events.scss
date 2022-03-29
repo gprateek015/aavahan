@@ -19,14 +19,24 @@
   opacity: 1;
 }
 
-.EventVideo{
+.EventVideo {
   width: 40%;
   margin: 90px auto 50px auto;
   height: auto;
 }
-@media (max-width:768px) {
-  .EventVideo{
+@media (max-width: 768px) {
+  .EventVideo {
     width: 90%;
     margin-bottom: 30px;
+  }
+}
+
+.dj-night {
+  .heading {
+    width: fit-content;
+    margin: 50px auto;
+  }
+  .EventVideo {
+    margin-top: 0px;
   }
 }
